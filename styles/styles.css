@@ -1,0 +1,147 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+}
+body{
+	background-color:#f4f4f4;
+	font-size: 16pt;
+    font-family: "Segoe UI", Arial, sans-serif;
+    color: #333;
+	line-height:1.6em;
+	margin:0 auto;
+	max-width: 1000px;
+    padding: 0; 
+}
+
+.container{
+ 	width:100%;
+ 	margin:0 auto;
+ 	overflow:hidden;
+ 	display: inline-block;
+ 	color: white;
+}
+
+#main h1{
+	text-align:center;
+	border: 15em;
+}
+
+#main h2{
+	text-transform: uppercase;
+    font-family: "Times New Roman", serif;
+    letter-spacing: 0.03em;
+    font-weight: normal;
+    margin-bottom: 0.5em;
+}
+
+#main-header{
+ 	position:relative;
+	max-width: 1200px;
+	margin: 20px auto;
+	padding: 10px;
+	background: #fff;
+	box-sizing: border-box;
+	border-radius: 4px;
+	box-shadow: 0 2px 5px rgba(0,0,0,.2);
+}
+#main-header{
+ 	background-color: #d9bcbc75;
+ 	color:#fff;
+}
+
+#main-header h1{
+	font-family: cursive
+}
+
+/* Carousel */
+.carousel-container{
+	width: 100%;
+	margin: auto;
+	overflow: hidden;
+	position: relative;
+}
+
+.carousel-slide{
+	display: flex;
+	width: 100%;
+	height: 500px;
+}
+
+#prevBtn{
+	position: absolute;
+	top: 50%;
+	z-index: 10;
+	left: 5%;
+	font-size: 30px;
+	color: grey;
+	opacity: 0.7;
+	cursor: pointer;
+}
+
+#nextBtn{
+	position: absolute;
+	top: 50%;
+	z-index: 10;
+	right: 5%;
+	font-size: 30px;
+	color: grey;
+	opacity: 0.7;
+	cursor: pointer;
+}
+
+
+/* Table styles */
+table{
+	width:1200px;
+	height:300px;
+	margin:0 auto;
+	/*border-spacing:40px;*/
+}
+
+th{
+	text-align:left;
+}
+
+table, th, td{
+	border:1px solid #000;
+	border-collapse:collapse;
+}
+
+th, td{
+	padding:10px;
+}
+
+/* Video styling */
+figure.video {
+	margin: 0 0 1em;
+}
+
+figure.video > figcaption {
+	margin-bottom: 0;
+}
+
+#font {text-transform: capitalize;}
+
+/* Sidebar styles */
+
+aside img{
+	max-width:300px;
+	margin:0px 7px 7px 7px;
+	float:right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

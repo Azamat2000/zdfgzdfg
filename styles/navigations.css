@@ -1,0 +1,117 @@
+#navbar{
+ 	background-color:#d9bcbc75;
+ 	color:white;
+ 	box-sizing: border-box;
+	box-shadow: 0 0 1em black;
+}
+
+#navbar ul{
+	margin:0;
+	padding:0;
+	list-style:none;
+	overflow:hidden;
+}
+
+#navbar li{
+	display:inline;
+	font-size:40px;
+	float:left;
+	width:180px;
+	height:70px;
+	
+	line-height:70px;
+	text-align:center;
+	font-size:16px;
+}
+
+#navbar a,
+#navbar a:hover{
+	text-decoration:none;
+	display:inline-block;
+}
+
+#navbar li:hover,
+#navbar li.active,
+.dropdown-content a:hover {
+	background-color: #7f806e;
+	opacity: 0.5;
+}	
+
+#navbar a{
+	color:#333;
+	text-decoration: none;
+	font-size:18px;
+	padding-right:15px;
+}
+
+/* Footer navigation */
+
+#main-footer{
+	background: #d9bcbc75;
+	width:#fff;
+	text-align: center;
+	padding:20px;
+	margin-top:40px;
+}
+
+#main-footer > section {
+	text-align: left;
+	display: inline-block;
+	margin-right: 5em;
+	vertical-align: top;
+	max-width: 200px;
+	font-size:20px;
+
+}
+
+#main-footer > section {
+	text-align: left;
+	display: inline-block;
+	margin-right: 2em;
+	vertical-align: top;
+	max-width: 200px;
+}
+
+#main-footer > section > ul,
+#main-footer > section > p {
+	font-size: 0.8em;
+	color:white;
+
+}
+
+#main-footer > section > ul {
+	list-style-type: none;
+	padding: 0;
+}
+
+#main-footer > section li:hover > a:before,
+#main-footer > section li.active > a:before {
+	content: "▸";
+	position: absolute;
+	margin-left: -1em;
+}
+
+#main-footer > section li.active {
+	background-color:#7f806e;
+	width: 40%;
+	opacity: 0.5;
+}
+
+#main-footer > section > h3 {
+	color: black;
+	position: relative;
+	width: 300%;
+	
+	
+
+}
+
+
+a{
+	text-decoration:none;
+} 
+
+
+
+
+
